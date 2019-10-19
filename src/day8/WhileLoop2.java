@@ -1,0 +1,23 @@
+package day8;
+
+import java.util.Scanner;
+
+public class WhileLoop2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		boolean flag = true;
+		
+		while (flag) {
+		System.out.println("Enter Name : ");
+		String name = input.next();
+		
+		if(name.equals("Ranjit")) {
+			flag = false;
+			
+		}
+		System.out.println("Name is : " + name);
+		}
+		System.out.println("Exit");
+	}
+	}
