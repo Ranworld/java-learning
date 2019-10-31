@@ -3,7 +3,8 @@ package day4;
 public class TypeCastingDemo3 {
 
 	public static void main(String[] args) {
-	double d = 127;
+	
+		double d = 127;
 	float f = (float) d;
 	// if only put f=d its an error now after using (float) its correct.
 	

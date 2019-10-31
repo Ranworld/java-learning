@@ -4,23 +4,23 @@ public class TypeCastingDemo1 {
 
 	public static void main(String[] args) {
 	
-		// Implicit type-casting, Internally, convertion
+		// Implicit type-casting, Internally, conversion
 	byte b = 127;
 	int i = b;
 	// It is by Java Compiler automatically
 	// because bytes = 1 byte but integer byte is 4 (int>byte) (4>1)
 	
 			
-	int ii = 127;
-	byte bb = (byte) ii;
+	int i1 = 127;
+	byte b1 = (byte) i1;
 	
 	// because of (byte) it is correct otherwise it is error.   
 	
-	// BUT we can put it in programe.
+	// BUT we can put it in programme.
 	// Explicit type-casting, Externally
 	
-	int iii = 127;
-	byte bbb = (byte) iii;
+	int i2 = 127;
+	byte b2 = (byte) i2;
 	// It is by programmer forcefully
 
 	//example
@@ -36,16 +36,18 @@ public class TypeCastingDemo1 {
 		System.out.println(divv);
 		// THe answers should be 0.3 but it shows only 0 thats why
 		
+		// using of double
 		int xxx = 2;
 		int yyy = 6;
 		double divvv = xxx / yyy;
 		System.out.println(divvv);
 		// again it shows 0.0 now
 		
-		int xxxx = 2;
-		int yyyy = 6;
-		double divvvv = (double) xxxx / yyyy;
-		System.out.println(divvvv);
+		// using both side double
+		int r = 2;
+		int t = 6;
+		double div1 = (double) r / t;
+		System.out.println(div1);
 		
 	
 	

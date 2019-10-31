@@ -10,12 +10,13 @@ public class OperatorsDemo1 {
 		// Associativity : left to right 
 		
 		
-		System.out.println(7 / 3); // It gives quotient
-		System.out.println(7 % 3); // It gives remainder
+		System.out.println(7 / 3); // It gives quotient (2)
+		System.out.println(7 % 3); // It gives remainder (1)
 		
-		System.out.println("==================");
+		System.out.println("====");
 		
 		int a = 4 + 5 - 6 / 2 - 3 * 2 + 7 % 3 ; 
+		
 		// lets see how it calculate:
 		
 		a = 4 + 5 - 3 - 3 * 2 + 7 % 3 ;

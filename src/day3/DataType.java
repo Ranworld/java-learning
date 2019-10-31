@@ -66,8 +66,8 @@ public class DataType {
 		short s1 = 32767; // max range
 		short s2 = -32768; // min range
 		
-		Int i1 = 2147483647; // max range
-		Int i2 = -2147483648; // min range
+		int i1 = 2147483647; // max range
+		int i2 = 2147483647; // min range
 		
 		Long l1 = 9223372036854775807L; // max range
 		Long l2 = -9223372036854775808L; // min range	
@@ -78,8 +78,8 @@ public class DataType {
 		Double d1 = 1.7976931348623157E308; // max range
 		Double d2 = 4.9E-324; // min range
 		 
-		Char c1 = 65535; // max range
-		Char c2 = 0; // min range
+		char c1 = 65535; // max range
+		char c2 = 0; // min range
 	
 	}
 

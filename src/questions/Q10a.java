@@ -7,6 +7,7 @@ public class Q10a {
 	public static void main(String[] args) {
 	
 		Scanner input = new Scanner(System.in);
+		
 		System.out.println("Inter u:");
 		double u = input.nextDouble();
 		System.out.println("inter a:");

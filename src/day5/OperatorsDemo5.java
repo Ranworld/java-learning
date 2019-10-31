@@ -3,7 +3,7 @@ package day5;
 public class OperatorsDemo5 {
 
 	public static void main(String[] args) {
-		// Relational Operator == eqyal != not equal > < >= greater than equal to <= less than equal to
+		// Relational Operator == equal != not equal > < >= greater than equal to <= less than equal to
 		
 		int a = 4;
 		int b = 5;

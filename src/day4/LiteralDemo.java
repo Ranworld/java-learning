@@ -53,8 +53,8 @@ public class LiteralDemo {
 		  LiteralDemo obj = null;
 		  // eg String ss = new string();
 		  
-		  // Now things to know that If 
-		  // If we need Name or word = Data strings
+		  // Now things to know that If :
+		  // If we need Name or word = strings
 		  // If we need Decimal value or any fractions  = Float or double
 		  // If we need whole number or Integer number = Integer
 		  // If we need any character = Character

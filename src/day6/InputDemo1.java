@@ -5,14 +5,15 @@ import java.util.Scanner;
 public class InputDemo1 {
 
 	public static void main(String[] args) {
-	Scanner input = new Scanner(System.in);
+	
+		Scanner input = new Scanner(System.in);
 	
 	// In this case if you write your full name then it will only type first word.
 	System.out.println("Enter Name : ");
 	String Name = input.next();
 	System.out.println("Name is : " + Name);
 	
-	// SO that for full name you need to cnange input.nextLine()
+	// SO that for full name you need to change input.nextLine()
 	
 	System.out.println("Enter Naam : ");
 	String Naam = input.nextLine();

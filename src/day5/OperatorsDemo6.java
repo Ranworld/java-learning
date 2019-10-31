@@ -11,7 +11,7 @@ public class OperatorsDemo6 {
 		//	false true false
 		//	false false false
 		
-		// a || b => reslut
+		// a || b => result
 		//	true true true
 		//	true false true
 		//	false true true
