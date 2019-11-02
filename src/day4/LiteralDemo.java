@@ -1,6 +1,6 @@
 package day4;
 
-// Literal : a source code representation of fixed value
+	// Literal : a source code representation of fixed value
 // Literal :> Fixed value + Data type
 
 // Examples : 45 Hello 34.55 Null
